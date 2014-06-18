@@ -33,11 +33,12 @@ $base-line-height: 150% !default;
 //
 // We use this to optionally include experimental or 
 // explicitly vendor prefixed properties
-@mixin experimental() {
-  @if $experimental {
-    @content;
-  }
-}
+// Disabled because it's incompatible with Compass ~~FiXato
+// @mixin experimental() {
+//   @if $experimental {
+//     @content;
+//   }
+// }
 
 // @mixins
 //
